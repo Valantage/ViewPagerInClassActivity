@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
             override fun createFragment(position: Int) = TextFragment.newInstance((position + 1).toString())
 
-        }
+        } 
     }
 
 }
